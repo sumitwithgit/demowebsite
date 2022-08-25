@@ -1,0 +1,1141 @@
+/* ===========CSS FOR HEADER============= */
+span.icon {
+    color: gray;
+    padding: 0px 5px;
+}
+
+div.windows {
+    height: 80px;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 19px;
+    left: 20px;
+}
+
+span.close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    color: gray;
+}
+
+/* nav.header{
+    position:fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+} */
+
+
+/* =========CSS FOR SECTION MENU BAR=========== */
+div.home {
+    height: 90px;
+    width: 1093px;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-weight: bold; */
+    margin: auto;
+    /* position: absolute; */
+    /* top: 0px; */
+    /* left: 0; */
+}
+
+div.home h1 {
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+div.home h1 a {
+    color: hotpink;
+    text-decoration: none;
+}
+
+div.menu-items {
+    display: inline-block;
+    float: right;
+}
+
+ul.items li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 25px;
+    font-size: 20px;
+}
+
+ul.items {
+    display: flex;
+}
+
+ul.items a {
+    text-decoration: none;
+}
+
+/* ===========CSS FOR EDUCATION SECTION============ */
+
+div.main-content {
+    width: 1093px;
+    height: 835px;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+
+div.education {
+    width: 100%;
+    height: 835px;
+    /* border: 2px solid green; */
+}
+
+div.left-content {
+    width: 60%;
+    /* display: inline-block; */
+    height: 100%;
+    float: left;
+    /* border: 2px solid orange; */
+}
+
+div.right-content {
+    display: inline-block;
+    width: 40%;
+    font-family: 'Cairo', sans-serif;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+div.boy-image {
+    width: 80%;
+    height: 630px;
+    display: inline-block;
+    /* background-image: url('img/boy.jpg'); */
+    /* background: url('img/boy.jpg'); */
+    background-size: cover;
+    /* border: 1px solid firebrick; */
+}
+
+img.boy {
+    width: 100%;
+    height: 100%;
+}
+
+div.gradient-color {
+    width: 80%;
+    height: 550px;
+    display: inline-block;
+    background: linear-gradient(to right, yellow, hotpink);
+    position: relative;
+    top: -50%;
+    z-index: -1;
+    left: 10%;
+}
+
+div.text {
+    width: 100%;
+    margin-top: 150px;
+    height: 250px;
+    /* border: 2px solid red; */
+}
+
+div.text h1 {
+    /* margin-top: 100px; */
+    line-height: 75px;
+    color: #488df4;
+    font-size: 4rem;
+}
+
+div.text h3 {
+    font-weight: bold;
+}
+
+div.lppg {
+    width: 200%;
+    height: 220px;
+    position: relative;
+    bottom: -7%;
+    right: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.lppg-items {
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+#learning {
+    background-color: #38c4c1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#philosphy {
+    background-color: #feca02;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#practice {
+    background-color: #fe7ec9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#games {
+    background-color: #488df4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div.book,
+div.book-caption,
+div.light,
+div.light-caption,
+div.hand,
+div.hand-caption,
+div.games,
+div.game-caption {
+    align-self: center;
+    color: white;
+}
+
+/* ===========CSS FOR KIDS LOVED============ */
+
+
+section.kids-loved{
+    width: 100%;
+    background-color: #38c4c1;
+}
+
+div.kids-loved {
+    width: 1093px;
+    margin: auto;
+    height: 400px;
+    color: #fff;
+    border: 1px solid #38c4c1;
+}
+
+div.content {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+div.content h1 {
+    font-size: 2.5rem;
+}
+
+div.content p {
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+
+
+
+/* ============CSS FOR ABOUT-US SECTION============= */
+div.main-about {
+    width: 1093px;
+    height: 900px;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+div.top-about {
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid green; */
+}
+
+div.top-about h1,
+h3 {
+    text-align: center;
+    line-height: 40px
+}
+
+div.top-about h3 {
+    margin-top: 45px;
+    font-size: 30px;
+    color: gray;
+}
+
+div.top-about h1 {
+    font-size: 40px;
+}
+
+div.bottom-about {
+    width: 100%;
+    height: 700px;
+    /* border: 2px solid pink; */
+}
+
+div.left-about {
+    width: 50%;
+    height: 700px;
+    /* border: 2px solid red; */
+    float: left;
+}
+
+div.right-about {
+    width: 50%;
+    height: 700px;
+    /* border: 2px solid blue; */
+    display: inline-block;
+}
+
+div.school-items {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid darkgoldenrod; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.scl-item {
+    width: 50%;
+    height: 50%;
+    border: 8px solid transparent;
+}
+
+span.diamond,
+span.teacher {
+    color: white;
+}
+
+div.diamond {
+    background-color: hotpink;
+    height: 83px;
+    width: 88px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 34%;
+    margin: 30px 34%;
+}
+
+div.teacher {
+    background-color: #38c4c1;
+    height: 64px;
+    width: 80px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 34%;
+}
+
+div.diamond-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+div.teacher-content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+div.diamond-content h3 {
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+div.teacher-content h3 {
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+div.diamond-content p {
+    font-size: 18px;
+    color: black;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+div.teacher-content p {
+    font-size: 18px;
+    color: black;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+div.left-about a {
+    text-decoration: none;
+    color: hotpink;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.fa-gem {
+    margin-top: 5px;
+}
+
+.fa-chalkboard-user {
+    margin-top: 10px;
+}
+
+div.cute-boy {
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+}
+
+div.cute-girl {
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+}
+
+div.hyper-boy {
+    width: 100%;
+    height: 100%;
+}
+
+img.hyper-boy {
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+img.cute-boy {
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+img.cute-girl {
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+
+
+/* ========CSS FOR KEY FEATURE SECTION=========         */
+section.key-features {
+    width: 100%;
+    background-color: #feca02;
+    height: 100%;
+    margin-top: 100px;
+}
+
+div.key-features {
+    width: 1093px;
+    height: 670px;
+    border: 3px solid #feca02;
+    margin: auto;
+}
+
+div.key-top h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+div.key-top h2 {
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+    font-size: 30px;
+    font-weight: unset;
+}
+
+div.key-bottom {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.key-items {
+    width: 25%;
+    height: 313px;
+    background-color: white;
+    border: 10px solid #feca02;
+}
+
+div#key-item1 h1 {
+    text-align: center;
+    font-weight: 100;
+    color: hotpink;
+}
+
+div#key-item2 h1 {
+    text-align: center;
+    color: blue;
+    font-weight: 100;
+}
+
+div#key-item3 h1 {
+    text-align: center;
+    color: skyblue;
+    font-weight: 100;
+}
+
+div#key-item4 h1 {
+    text-align: center;
+    color: tomato;
+    font-weight: 100;
+}
+
+div#key-item1 p {
+    text-align: center;
+    padding: 10px 8px;
+    font-style: italic;
+    font-size: 18px;
+    color: black;
+}
+
+div#key-item2 p {
+    text-align: center;
+    padding: 10px 8px;
+    font-style: italic;
+    font-size: 18px;
+    color: black;
+}
+
+div#key-item3 p {
+    text-align: center;
+    padding: 10px 8px;
+    font-style: italic;
+    color: black;
+    font-size: 18px;
+}
+
+div#key-item4 p {
+    text-align: center;
+    padding: 10px 8px;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+}
+
+div.enviornment {
+    width: 80px;
+    height: 80px;
+    background-color: #feca02;
+    border-radius: 50%;
+    margin: 30px 34%;
+}
+
+div.learning {
+    width: 80px;
+    height: 80px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    margin: 30px 34%;
+}
+
+div.creative {
+    width: 80px;
+    height: 80px;
+    background-color: skyblue;
+    border-radius: 50%;
+    margin: 30px 34%;
+}
+
+div.teacher {
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 30px 34%;
+}
+
+.fa-book-open {
+    margin-top: 13px;
+    margin-left: 13px;
+    color: white;
+}
+
+.fa-book-open-reader {
+    margin-top: 13px;
+    margin-left: 15px;
+    color: white;
+}
+
+.fa-pen-circle {
+    margin-top: 13px;
+    margin-left: 15px;
+    color: black;
+}
+
+.fa-person-chalkboard {
+    margin-top: 13px;
+    margin-left: 1px;
+    color: white;
+}
+
+
+
+/* ============CSS FOR INNOVATIVE SECTION========== */
+section.innovative-method {
+    width: 1093px;
+    height: 600px;
+    margin: auto;
+}
+
+div.innovative-mothod {
+    width: 1093px;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+}
+
+div.left-innovative {
+    width: 60%;
+    height: 600px;
+    float: left;
+    /* border: 1px solid hotpink; */
+}
+
+div.right-innovative {
+    width: 40%;
+    height: 600px;
+    display: inline-block;
+    /* border: 1px solid hotpink; */
+}
+
+div.girl-innovative {
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    float: left;
+}
+
+img.girl-innovative {
+    width: 100%;
+    height: 100%;
+}
+
+div.innovative-gradient {
+    width: 400px;
+    height: 390px;
+    display: inline-block;
+    position: relative;
+    top: -72%;
+    left: 240px;
+    background: linear-gradient(hotpink, orange);
+}
+
+div.boy-innovative {
+    width: 340px;
+    height: 390px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    position: relative;
+    top: -128%;
+    left: 270px;
+}
+
+img.boy-innovative {
+    width: 100%;
+    height: 100%;
+}
+
+div.right-innovative h1 {
+    margin-top: 70px;
+    font-size: 37px;
+    font-weight: 600;
+    padding-left: 30px;
+    color: #488df4;
+}
+
+div.right-innovative p {
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px 30px;
+    line-height: 30px;
+    color: black;
+}
+
+div.right-innovative p a {
+    text-decoration: none;
+    color: hotpink;
+}
+
+.read-more a {
+    text-decoration: none;
+    color: hotpink;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 30px;
+}
+
+/* =========CSS FOR ENROLL YOUR CHILD SECTION=========== */
+section.enroll-your-child {
+    width: 100%;
+    height: 450px;
+    border: 1px solid #488df4;
+    background-color: #488df4;
+}
+
+div.enroll-your-child {
+    width: 1093px;
+    height: 450px;
+    margin: auto;
+}
+
+div.enroll-your-child h1 {
+    margin: 100px 0px;
+    font-size: 30px;
+    color: white;
+}
+
+div.enroll-your-child p {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    column-count: 2;
+    column-gap: 50px;
+}
+
+
+/* ========CSS FOR ABOUT US EDUCATION========= */
+
+section.about-us-education{
+    width: 100%;
+}
+
+
+div.about-us-education {
+    width: 1093px;
+    height: 900px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+div.upper-education {
+    width: 100%;
+    /* border: 1px solid green; */
+    height: 200px;
+}
+
+div.upper-education h2 {
+    margin-top: 80px;
+    text-align: center;
+    color: gray;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+div.upper-education h1 {
+    text-align: center;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+div.education-item {
+    width: 33%;
+    height: 700px;
+    /* border: 1px solid red; */
+    float: left;
+}
+
+div#left-education {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div#right-education {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div.fun-item {
+    width: 100%;
+    height: 33%;
+    /* border: 1px solid orange; */
+}
+
+div.fun-item-right {
+    width: 100%;
+    height: 33%;
+    /* border: 1px solid orange; */
+}
+
+img.fun-boy {
+    width: 100%;
+    height: 100%;
+}
+
+div#fun-item1 h1 {
+    text-align: right;
+    padding: 20px;
+}
+
+div#fun-item2 h1 {
+    text-align: right;
+    padding: 20px;
+}
+
+div#fun-item3 h1 {
+    text-align: right;
+    padding: 20px;
+}
+
+div#fun-item-right-1 h1 {
+    text-align: left;
+    padding: 20px;
+}
+
+div#fun-item-right-2 h1 {
+    text-align: left;
+    padding: 20px;
+}
+
+div#fun-item-right-3 h1 {
+    text-align: left;
+    padding: 20px;
+}
+
+div#fun-item1 p {
+    text-align: right;
+    padding: 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+}
+
+div#fun-item2 p {
+    text-align: right;
+    padding: 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+}
+
+div#fun-item3 p {
+    text-align: right;
+    padding: 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+}
+
+div#fun-item-right-1 p {
+    text-align: left;
+    padding: 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+}
+
+div#fun-item-right-2 p {
+    text-align: left;
+    padding: 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+}
+
+div#fun-item-right-3 p {
+    text-align: left;
+    padding: 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+}
+
+
+
+/* ==========CSS FOR FACILITY SECTION ================*/
+
+section.facility {
+    width: 100%;
+    /* height:200px; */
+    /* border: 1px solid black; */
+}
+
+div.facility {
+    width: 80%;
+    height: 1000px;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+
+div.upper-facility {
+    width: 100%;
+    height: 170px;
+    margin-top: 150px;
+    /* border: 1px solid red; */
+}
+
+div.upper-facility h1 {
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    line-height: 33px;
+}
+
+div.upper-facility h2 {
+    text-align: center;
+    font-size: 38px;
+    color: black;
+    line-height: 55px;
+}
+
+div.sport-boy {
+    height: 600px;
+    display: inline-block;
+    width: 500px;
+    /* border: 1px solid black; */
+}
+
+img.sport-boy {
+    width: 100%;
+    height: 100%;
+}
+
+div.facility-gradient {
+    height: 450px;
+    width: 400px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: -67%;
+    background: linear-gradient(hotpink, orange);
+    left: 83%;
+    display: inline-block;
+}
+
+div.relaxation {
+    width: 500px;
+    height: 300px;
+    /* border: 1px solid black; */
+    position: relative;
+    display: inline-block;
+    top: 70px;
+    background-color: white;
+    left: 20%;
+    padding: 60px 55px;
+}
+
+div.relaxation h1 {
+    font-size: 30px;
+}
+
+div.relaxation p {
+    font-size: 20px;
+    padding: 15px 0px;
+    color: black;
+}
+
+div.relaxation a {
+    text-decoration: none;
+    color: hotpink;
+}
+div.lower-facility {
+    width: 1093px;
+    margin: auto;
+}
+
+
+
+/* =========CSS FOR CONTACT SECTION=========== */
+section.contact {
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+
+div.contact-upper {
+    width: 1093px;
+    height: 300px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+div.contact-upper-content {
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    margin: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.contact {
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid hotpink; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 1px solid yellowgreen; */
+}
+
+div.location {
+    width: 100%;
+    height: 100px;
+}
+
+div.mobile {
+    width: 100%;
+    height: 100px;
+}
+
+div.mail {
+    width: 100%;
+    height: 100px;
+}
+
+div.loaction-icon {
+    margin-left: 37%;
+
+}
+
+div.mobile-icon {
+    margin-left: 37%;
+
+}
+
+div.mail-icon {
+    margin-left: 37%;
+
+}
+
+div.loaction-icon {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: hotpink;
+    padding: 20px 25px;
+}
+
+div.mobile-icon {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: #feca02;
+    padding: 20px 25px;
+}
+
+div.mail-icon {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: #38c4c1;
+    padding: 20px 25px;
+}
+
+div#location-2 h6 {
+    font-size: 12px;
+    text-align: center;
+}
+
+div#mobile-2 h6 {
+    font-size: 12px;
+    text-align: center;
+}
+
+div#mail-2 h6 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.fa-map-marker {
+    color: white;
+}
+
+span.mobile {
+    color: white;
+}
+
+.fa-envelope {
+    color: white;
+}
+
+
+div.contact-lower {
+    width: 1093px;
+    margin: auto;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: hotpink;
+}
+div.lower-layer{
+    width: 100%;
+    background-color: hotpink;
+}
+
+div.contact-lower-content {
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.contact-content {
+    width: 200px;
+    height: 100px;
+    padding: 50px 0px;
+    /* border: 1px solid blue; */
+}
+
+div.contact-content h1,
+p {
+    text-align: center;
+    color: white;
+}
+
+
+/* ==========CSS FOR FOOTER============ */
+
+span.instagram,
+span.twitter,
+span.facebook,
+span.linkedin {
+    color: white;
+}
+
+footer.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+}
+
+div.footer {
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    color: white;
+    padding-top: 40px;
+}
+
+div.footer a {
+    color: hotpink;
+}

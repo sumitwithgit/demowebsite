@@ -1,0 +1,411 @@
+nav.header {
+    width: 1170px;
+}
+div.navbar {
+    width: 100%;
+}
+div.windows {
+    height: 100px;
+}
+span.close{
+    display: none;
+}
+i.fa.fa-desktop.fa-2x,i.fa.fa-laptop.fa-2x,i.fa.fa-tablet.fa-2x,i.fa.fa-television.fa-2x,i.fa.fa-mobile.fa-2x{
+    display: none;
+}
+img.logo {
+    height: 80px;
+}
+section.menu {
+    width: 1170px;
+}
+div.home {
+    height: 150px;
+    margin: auto;
+    width: 70%;
+}
+div.home h1 {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 70px;
+}
+div.menu-items {
+    display: none;
+}
+section.education {
+    width: 1170px;
+}
+div.main-content {
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+div.education {
+    width: 100%;
+    height: auto;
+}
+
+div.left-content {
+    width: 100%;
+    display: block;
+}
+div.boy-image {
+    width: 100%;
+    height: 800px;
+}
+div.gradient-color {
+    display: none;
+}
+div.right-content {
+    display: inline-block;
+    width: 100%;
+}
+div.text {
+    display: none;
+}
+div.right-content h3{
+    display: none;
+}
+div.lppg {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+}
+div.lppg-items {
+    width: 100%;
+    height: 200px;
+}
+div.light-caption,div.book-caption,div.hand-caption,div.game-caption h1{
+    font-size: 50px;
+}
+section.kids-loved {
+    width: 1170px;
+    margin-top: 100px;
+}
+div.kids-loved {
+    width: 70%;
+    height: auto;
+}
+div.content {
+    margin: 40px 50px;
+}
+div.content h1 {
+    font-size: 3.5rem;
+}
+div.content p {
+    margin-top: 50px 0px;
+    font-size: 45px;
+    text-align: inherit;
+    line-height: 50px;
+}
+section.about-us {
+    width: 1170px;
+}
+
+div.main-about {
+    width: 70%;
+    height: auto;
+}
+div.top-about h3 {
+    font-size: 100px;
+    line-height: 100px;
+}
+div.top-about h1 {
+    font-size: 65px;
+    line-height: 65px;
+}
+div.bottom-about {
+    width: 100%;
+    height: auto;
+}
+div.left-about {
+    width: 100%;
+    height: auto;
+}
+div.diamond,div.teacher{
+    margin: 30px 46%;
+}
+div.diamond-content h3 {
+    line-height: 70px;
+    font-size: 70px;
+}
+div.diamond-content p {
+    font-size: 40px;
+}
+div.left-about a
+{
+    font-size: 40px;
+}
+div.teacher-content h3 {
+    line-height: 70px;
+    font-size: 70px;
+}
+div.teacher-content p {
+    font-size: 40px;
+}
+div.right-about {
+    width: 100%;
+    height: auto;
+}
+section.key-features {
+    width: 1170px;
+}
+div.key-features {
+    width: 70%;
+    height: auto;
+}
+div.key-bottom {
+    flex-direction: column;
+    margin: 90px 10px;
+}
+div.key-top h2 {
+    margin-top: 90px;
+    font-size: 100px;
+}
+div.key-top h1 {
+    margin-top: 20px;
+    font-size: 70px;
+}
+div.key-items {
+    width: 100%;
+    height: 350px;
+}
+div.enviornment {
+    margin: 30px 45%;
+}
+div.learning {
+    margin: 30px 45%;
+}
+div.creative {
+    margin: 30px 45%;
+}
+div.teacher {
+    margin: 30px 45%;
+}
+div#key-item1 h1 {
+    font-size: 65px;
+}
+div#key-item2 h1 {
+    font-size: 65px;
+}
+div#key-item3 h1 {
+    font-size: 65px;
+}
+div#key-item4 h1 {
+    font-size: 65px;
+}
+div#key-item1 p {
+    font-size: 35px;
+}
+div#key-item2 p {
+    font-size: 35px;
+}
+div#key-item3 p {
+    font-size: 35px;
+}
+div#key-item4 p {
+    font-size: 35px;
+}
+section.innovative-method {
+    width: 1170px;
+    height: auto;
+    margin: auto;
+}
+div.innovative-mothod {
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+div.left-innovative {
+    width: 85%;
+    height: 600px;
+}
+div.right-innovative {
+    width: 100%;
+    height: auto;
+    margin: 50px 0px;
+}
+div.right-innovative h1 {
+    margin-top: 70px;
+    font-size: 70px;
+}
+div.right-innovative p {
+    font-size: 50px;
+    font-weight: 100;
+    text-align: inherit;
+    padding: 20px 30px;
+    line-height: 51px;
+}
+.read-more a {
+    font-size: 70px;
+}
+section.enroll-your-child {
+    width: 1170px;
+    height: auto;
+}
+div.enroll-your-child {
+    width: 70%;
+    height: auto;
+    margin: 50px auto;
+}
+div.enroll-your-child h1 {
+    margin: 50px 0px;
+    font-size: 65px;
+}
+div.enroll-your-child p {
+    font-size: 40px;
+    text-align: initial;
+}
+section.about-us-education {
+    width: 1170px;
+}
+
+div.about-us-education {
+    width: 70%;
+    height: auto;
+}
+div.upper-education h2 {
+    line-height: 100px;
+    font-size: 100px;
+}
+div.upper-education h1 {
+    font-size: 65px;
+    line-height: 65px;
+}
+section.about-us-education {
+    width: 1170px;
+}
+div.about-us-education {
+    width: 70%;
+    height: 2500px;
+}
+div.fun-item {
+    font-size: 45px;
+}
+div#fun-item1 p{
+    font-size: 35px;
+}
+div#fun-item2 p{
+    font-size: 35px;
+}
+div#fun-item3 p{
+    font-size: 35px;
+}
+div.education-item {
+    width: 100%;
+}
+div#mid-education{
+    height: 900px;
+
+}
+div.fun-item-right h1{
+    font-size: 45px;
+}
+div#fun-item-right-1 p{
+    font-size: 35px;
+}
+div#fun-item-right-2 p{
+    font-size: 35px;
+}
+div#fun-item-right-3 p{
+    font-size: 35px;
+}
+section.facility {
+    width: 1170px;
+}
+div.facility {
+    width: 70%;
+    height: 1200px;
+}
+div.upper-facility h1 {
+    font-size: 85px;
+    line-height: 80px;
+}
+div.upper-facility h2 {
+    font-size: 50px;
+    line-height: 55px;
+}
+div.lower-facility {
+    width: 70%;
+}
+div.sport-boy {
+    height: 900px;
+    display: inline-block;
+    width: 100%;
+}
+div.facility-gradient{
+    display: none;
+}
+
+section.contact {
+    width: 1170px;
+    height: auto;
+}
+div.contact-upper {
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+div.contact-upper-content {
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+div.contact {
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+}
+div.lower-layer {
+    width: 1170px;
+}
+div.contact-lower {
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+div.contact-lower-content {
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+div.contact-content {
+    padding: 25px 0px;
+    width: 100%;
+    height: 150px;
+}
+div.contact-content h1, p {
+    font-size: 40px;
+}
+div.contact-links{
+    display: none;
+}
+div#mail-2 h6 {
+    font-size: 45px;
+    text-align: center;
+}
+div.mail-icon,div.loaction-icon,div.mobile-icon {
+    margin-left: 42%;
+}
+div#mobile-2 h6 {
+    font-size: 45px;
+    text-align: center;
+}
+div#location-2 h6 {
+    font-size: 45px;
+    text-align: center;
+}
+footer.footer {
+    width: 1170px;
+    height: 150px;
+}
+div.footer {
+    width: 70%;
+    margin: auto;
+    height: 150px;
+}
+center {
+    font-size: 30px;
+}
